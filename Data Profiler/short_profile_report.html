@@ -1,0 +1,228 @@
+
+<html>
+<head>
+    <title>Short Pandas Profiling Style Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 28px; color: #222; }
+        h1 { color: #1f4e78; }
+        h2 { color: #c55a11; margin-top: 28px; }
+        .card { background: #f6f9fc; border-left: 5px solid #1f4e78; padding: 14px 18px; margin: 12px 0; }
+        table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+        th, td { border: 1px solid #d9e2f3; padding: 8px; text-align: left; }
+        th { background: #ddebf7; }
+        ul { margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Short Pandas Profiling Style Report</h1>
+    <p>This compact report summarizes the cleaned customer dataset in a profiling-style format.</p>
+
+    <h2>Overview</h2>
+    <div class="card">
+        <p><strong>Rows:</strong> 1000</p>
+        <p><strong>Columns:</strong> 6</p>
+        <p><strong>Total Missing Values:</strong> 0</p>
+        <p><strong>Duplicate Rows:</strong> 0</p>
+        <p><strong>Churn Rate:</strong> 49.1%</p>
+    </div>
+
+    <h2>Quick Metrics</h2>
+    <div class="card">
+        <p><strong>Average Age:</strong> 40.97</p>
+        <p><strong>Average Income:</strong> 87083.37</p>
+        <p><strong>Average Purchases:</strong> 25.26</p>
+    </div>
+
+    <h2>Missing Values</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Missing Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Age</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Income</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Purchases</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Churn</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>City</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Descriptive Statistics</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>unique</th>
+      <th>top</th>
+      <th>freq</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Age</th>
+      <td>1000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>40.968</td>
+      <td>13.177352</td>
+      <td>18.0</td>
+      <td>30.0</td>
+      <td>42.0</td>
+      <td>52.0</td>
+      <td>64.0</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>1000</td>
+      <td>2</td>
+      <td>Male</td>
+      <td>526</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Income</th>
+      <td>1000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>87083.374</td>
+      <td>37225.178672</td>
+      <td>20207.0</td>
+      <td>54524.0</td>
+      <td>88482.0</td>
+      <td>119375.5</td>
+      <td>149992.0</td>
+    </tr>
+    <tr>
+      <th>Purchases</th>
+      <td>1000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>25.265</td>
+      <td>14.044074</td>
+      <td>1.0</td>
+      <td>13.75</td>
+      <td>25.0</td>
+      <td>38.0</td>
+      <td>49.0</td>
+    </tr>
+    <tr>
+      <th>Churn</th>
+      <td>1000.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.491</td>
+      <td>0.500169</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>City</th>
+      <td>1000</td>
+      <td>4</td>
+      <td>Rajkot</td>
+      <td>266</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Correlations</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Age</th>
+      <th>Income</th>
+      <th>Purchases</th>
+      <th>Churn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Age</th>
+      <td>1.00</td>
+      <td>0.04</td>
+      <td>0.04</td>
+      <td>0.01</td>
+    </tr>
+    <tr>
+      <th>Income</th>
+      <td>0.04</td>
+      <td>1.00</td>
+      <td>-0.06</td>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th>Purchases</th>
+      <td>0.04</td>
+      <td>-0.06</td>
+      <td>1.00</td>
+      <td>-0.04</td>
+    </tr>
+    <tr>
+      <th>Churn</th>
+      <td>0.01</td>
+      <td>-0.02</td>
+      <td>-0.04</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Warnings and Notes</h2>
+    <ul>
+        <li>The original dataset contained missing values in <strong>Age</strong> and <strong>Income</strong>.</li>
+        <li>The original dataset contained duplicate rows, which were removed before summarizing.</li>
+        <li><strong>CustomerID</strong> was excluded because it is an identifier and not analytically useful.</li>
+    </ul>
+</body>
+</html>
