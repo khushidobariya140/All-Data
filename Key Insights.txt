@@ -1,0 +1,142 @@
+:- WattWatch :Analyzing Urban Energy Consumption for Smarter Cities :-
+
+1. Energy Demand Concentration :-
+-> Insight:
+
+Residential consumers account for the highest total energy consumption
+compared to Commercial and Industrial segments.
+
+-> Business Meaning:
+
+Residential demand is the primary load driver.
+
+Demand-side management programs should prioritize households.
+
+Smart metering and time-of-use pricing can reduce peak load stress.
+
+2. Zone-Based Energy Hotspots :-
+-> Insight:
+
+Certain zones (e.g., North/Central if highest in your 
+consume significantly more energy than others.
+
+-> Business Meaning:
+
+High-demand zones may need infrastructure upgrades.
+
+Transformer capacity and grid reinforcement should focus on these areas.
+
+Opportunity for rooftop solar or distributed generation.
+
+3. Monthly Trend Shows Seasonal Peaks :-
+-> Insight:
+
+Energy consumption increases during specific months (likely summer or winter).
+
+-> Business Meaning:
+
+Demand is seasonal.
+
+Utility company should prepare for peak capacity months.
+
+Introduce seasonal tariff optimization.
+
+4. Peak Usage Pattern :-
+-> Insight:
+
+High PeakUsage_kWh values indicate short-duration heavy loads.
+
+-> Business Meaning:
+
+Grid stress risk during peak hours.
+
+Recommend smart load balancing.
+
+Encourage staggered industrial shifts.
+
+5. Outage Impact Analysis :-
+-> Insight:
+
+Some zones show higher outage minutes despite moderate consumption.
+
+-> Business Meaning:
+
+Infrastructure reliability issues.
+
+Preventive maintenance required.
+
+High outage zones affect customer satisfaction.
+
+This is critical for business case study.
+
+6. Revenue Concentration :-
+
+-> Using:
+EnergyConsumed × TariffRate
+
+-> Insight:
+
+Commercial/Industrial sectors may generate higher revenue despite lower total consumption.
+
+-> Business Meaning:
+
+These segments are high-value customers.
+
+Service reliability is financially critical.
+
+Tailored pricing strategies can increase profitability.
+
+7. Low Energy Efficiency Zones :-
+
+-> Using:
+High Consumption + High Outage Minutes
+
+-> Insight:
+
+Some zones consume heavily but also suffer outages → indicates inefficiency.
+
+-> Business Meaning:
+
+Energy loss or distribution inefficiency.
+
+Possible outdated infrastructure.
+
+Investment priority areas.
+
+8. Weekday vs Weekend Pattern :-
+-> Insight:
+
+Commercial consumption drops on weekends while residential increases.
+
+-> Business Meaning:
+
+Predictable demand shifts.
+
+Smart grid scheduling can optimize supply.
+
+Industrial contracts can include demand flexibility clauses.
+
+9. Meter Health Monitoring :-
+
+-> Using:
+MeterStatus + OutageMinutes
+
+-> Insight:
+
+Faulty meters correlate with higher outage reporting.
+
+-> Business Meaning:
+
+Replace faulty meters.
+
+Reduce technical losses.
+
+Improve billing accuracy.
+
+:-:-: Executive Summary for Business Case :-:-:
+
+...The analysis reveals that residential consumers drive overall energy demand, 
+while specific zones exhibit high consumption combined with reliability issues.
+Seasonal peaks indicate the need for demand forecasting and infrastructure planning.
+Revenue concentration in commercial sectors highlights the importance of maintaining
+grid reliability for high-value customers.

@@ -1,0 +1,15 @@
+🔎 Key Insights for Smart City Energy Project
+
+Certain zones show significantly higher total consumption, indicating possible commercial or industrial clusters driving demand.
+
+Industrial consumers consistently rank among the top energy users, suggesting targeted efficiency programs could yield high impact savings.
+
+Monthly consumption trends show increasing usage in specific periods, possibly due to seasonal cooling/heating demand.
+
+Zones with high outage minutes also show high peak usage, indicating infrastructure stress during load spikes.
+
+Faulty meters are concentrated in specific zones, suggesting maintenance prioritization is required.
+
+Weekend peak usage is lower than weekday peak usage, implying commercial activity drives maximum load demand.
+
+Low efficiency zones (high usage + outages) require grid modernization, load balancing, or smart monitoring deployment.
