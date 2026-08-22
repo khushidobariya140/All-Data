@@ -1,0 +1,42 @@
+
+FINAL PREPROCESSING REPORT
+==========================
+
+1. Dataset Used
+- Source file: customer_credit_risk_practice_dataset.csv
+- Original shape: (80, 15)
+- Final transformed shape: (80, 97)
+
+2. Missing Value Strategies
+- Numerical columns were imputed using median values because median is robust to outliers.
+- Categorical columns were imputed using most frequent values because categories are discrete.
+- join_date was imputed using the median date so date-derived features could be created.
+- KNN imputation was demonstrated separately for numerical practice.
+
+3. Outlier Handling
+- IQR method was used to detect outliers.
+- Capping/Winsorization was used instead of row deletion to preserve dataset size.
+
+4. Encoding Methods
+- Ordinal encoding was used for education_level because it has a natural order.
+- One-hot encoding was used for gender, region, employment_type, loan_purpose, income_bin, and credit_score_bin.
+- Label encoding was demonstrated for default_flag, although it was already binary.
+
+5. Scaling and Transformations
+- Standard Scaling, Normalization, Min-Max Scaling, MaxAbs Scaling, and Robust Scaling were applied separately.
+- RobustScaler was selected inside the final pipeline because credit-risk data contains outliers.
+- FunctionTransformer was used for log, reciprocal, and square-root transformations.
+- PowerTransformer was used for Box-Cox and Yeo-Johnson transformations.
+
+6. Feature Engineering
+- debt_to_income_ratio: measures loan burden compared with annual income.
+- avg_monthly_transactions: estimates average monthly transaction activity from six-month count.
+- spending_to_income_ratio: estimates spending burden in relation to income.
+- Date features: join_year, join_month, join_day, join_weekday, and customer_tenure_days.
+
+7. Readiness for ML Modeling
+- Final dataset contains no missing values.
+- Categorical variables are numerically encoded.
+- Numerical variables are scaled/transformed.
+- Engineered risk features are included.
+- The dataset is ready for model training and evaluation.

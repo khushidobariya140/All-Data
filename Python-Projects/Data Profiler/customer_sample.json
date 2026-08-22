@@ -1,0 +1,92 @@
+[
+  {
+    "CustomerID": 1,
+    "Age": 56.0,
+    "Gender": "Male",
+    "Income": 49241.0,
+    "Purchases": 2,
+    "Churn": 0,
+    "City": "Rajkot"
+  },
+  {
+    "CustomerID": 2,
+    "Age": 46.0,
+    "Gender": "Female",
+    "Income": 116214.0,
+    "Purchases": 23,
+    "Churn": 0,
+    "City": "Delhi"
+  },
+  {
+    "CustomerID": 3,
+    "Age": 32.0,
+    "Gender": "Female",
+    "Income": 64569.0,
+    "Purchases": 19,
+    "Churn": 1,
+    "City": "Mumbai"
+  },
+  {
+    "CustomerID": 4,
+    "Age": 60.0,
+    "Gender": "Female",
+    "Income": 31745.0,
+    "Purchases": 31,
+    "Churn": 0,
+    "City": "Mumbai"
+  },
+  {
+    "CustomerID": 5,
+    "Age": 25.0,
+    "Gender": "Male",
+    "Income": 46029.0,
+    "Purchases": 5,
+    "Churn": 1,
+    "City": "Mumbai"
+  },
+  {
+    "CustomerID": 6,
+    "Age": 38.0,
+    "Gender": "Male",
+    "Income": 33025.0,
+    "Purchases": 19,
+    "Churn": 1,
+    "City": "Mumbai"
+  },
+  {
+    "CustomerID": 7,
+    "Age": 56.0,
+    "Gender": "Male",
+    "Income": 121660.0,
+    "Purchases": 34,
+    "Churn": 0,
+    "City": "Bangalore"
+  },
+  {
+    "CustomerID": 8,
+    "Age": 36.0,
+    "Gender": "Male",
+    "Income": 143395.0,
+    "Purchases": 10,
+    "Churn": 1,
+    "City": "Delhi"
+  },
+  {
+    "CustomerID": 9,
+    "Age": 40.0,
+    "Gender": "Male",
+    "Income": 34288.0,
+    "Purchases": 25,
+    "Churn": 0,
+    "City": "Rajkot"
+  },
+  {
+    "CustomerID": 10,
+    "Age": 28.0,
+    "Gender": "Male",
+    "Income": 109186.0,
+    "Purchases": 2,
+    "Churn": 1,
+    "City": "Rajkot"
+  }
+]

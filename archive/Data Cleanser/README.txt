@@ -2,7 +2,7 @@
 -> Overview :-
 
 This project focuses on cleaning a healthcare dataset by handling missing values and outliers using multiple techniques.
-The goal is to transform raw data into a machine learning–ready dataset.
+The goal is to transform raw data into a machine learning\x96ready dataset.
 
 -> Part A: Handling Missing Values
 
@@ -24,7 +24,7 @@ Replaced missing Gender values with mode
 
 Missing Indicator + Random Sampling :-
 Created a new column indicating missing values
-Filled missing values using random sampling 
+Filled missing values using random sampling
 KNN Imputer :-
 Used nearest neighbors to fill missing values
 Preserves relationships between variables
@@ -43,7 +43,7 @@ KNN and MICE provide better accuracy and relationships
 :-:-:- Techniques Applied
 
 Z-score Method :-
-Removed extreme values (threshold: ±3)
+Removed extreme values (threshold: \xb13)
 
 IQR Method :-
 Used for skewed data (especially BMI)
