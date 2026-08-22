@@ -2,7 +2,7 @@
 
 This repository serves as the master index and archive for all data analytics, Python, SQL, Excel, Power BI, statistics, machine learning, and business case study projects created by **Khushi Dobariya** (`khushidobariya140`).
 
-The original repository has been organized and migrated into dedicated, topic-specific GitHub repositories to maintain clean portfolio presentation and standard modular architecture.
+The original repository has been organized and migrated into dedicated, topic-specific GitHub repositories to maintain clean portfolio presentation and standard modular architecture. All unorganized legacy projects are safely preserved in the [`archive/`](./archive/) directory.
 
 ---
 
@@ -42,6 +42,16 @@ Machine learning predictive modeling, regression, feature importance, and model 
 
 ---
 
+## 🚀 How to Publish Category Repositories to GitHub
+
+Run the included automated helper script to push all 8 prepared local topic repositories to your GitHub account (`khushidobariya140`):
+
+```bash
+./push_to_github.sh
+```
+
+---
+
 ## 📄 Documentation & Audit Reports
 
 - **[`PROJECT_CLASSIFICATION.md`](./PROJECT_CLASSIFICATION.md):** Complete project inventory and classification breakdown across all original folders and files.
@@ -51,4 +61,4 @@ Machine learning predictive modeling, regression, feature importance, and model 
 
 ## 🔒 Master Archive Guarantee
 
-All original project files, datasets, notebooks, SQL scripts, PBIX reports, and assets remain preserved in this repository for historical reference and backup purposes.
+All original project files, datasets, notebooks, SQL scripts, PBIX reports, and assets remain preserved in the [`archive/`](./archive/) directory of this repository for historical reference and backup purposes.
