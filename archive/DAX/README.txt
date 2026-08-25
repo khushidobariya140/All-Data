@@ -1,7 +1,7 @@
 Power BI DAX – README
 Overview:-
 
-This project demonstrates Power BI data modeling and DAX concepts using sales and returns data. 
+This project demonstrates Power BI data modeling and DAX concepts using sales and returns data.
 It includes calculated columns, measures, time intelligence, and matrix-based reporting.
 
 Dataset:-
